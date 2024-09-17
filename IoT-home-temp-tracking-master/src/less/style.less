@@ -1,0 +1,64 @@
+@import 'variables';
+//@import 'partials/reset';
+
+body {
+    background: #FAFAFA;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.navWrapper {
+    max-width: 360px;
+    min-width: 320px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.14);
+    .card {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        color: #455a64;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(0,0,0,0.14);
+        text-decoration: none;
+    }
+    .time {
+        float: right;
+        line-height: 30px;
+    }
+    .title {
+        line-height: 30px;
+        color: #333;
+        font-weight: 700;
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .locationId {
+        background: #455a64;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        float: left;
+        color: #fff;
+    }
+    .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        span {
+            flex-grow: 1;
+            text-align: center;
+            align-self: center;
+        }
+    }
+}
+
+.mainContent {
+    width: 820px;
+}
